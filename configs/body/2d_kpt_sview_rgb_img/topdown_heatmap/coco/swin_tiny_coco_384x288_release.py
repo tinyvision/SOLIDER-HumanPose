@@ -43,7 +43,7 @@ channel_cfg = dict(
 norm_cfg = dict(type='SyncBN', requires_grad=True)
 model = dict(
     type='TopDown',
-    pretrained='/mnt_det/xianzhe.xxz/projects/mmpose/mmpose/models/backbones/models/swin_tiny.pth',
+    pretrained='./pretrained/solider_swin_tiny.pth',
     backbone=dict(
         type='SwinTransformer',
         in_channels=3,
